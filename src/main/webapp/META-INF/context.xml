@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/FloraFlowerShop">
+
+    <Resource name="jdbc/murach" auth="Container" 
+        driverClassName="org.postgresql.Driver" 
+        url="jdbc:postgresql://ec2-52-1-17-228.compute-1.amazonaws.com:5432/d7qr0iu7igc22g" 
+        username="aikzlnpvrofvmj" password="a7b26f06c32229dd0ffc890c398e78d7ff6cec029605830d833b7d9755353bdc" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />  
+
+</Context>

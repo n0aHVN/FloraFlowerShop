@@ -1,0 +1,12 @@
+murach\Data\Connect\DbConfiguration.class
+murach\Controllers\Home.class
+murach\Data\Connect\ConnectionPool.class
+murach\Data\CategoryDB.class
+murach\Business\Category.class
+murach\Data\Connect\C3p0DataSource.class
+murach\Data\Connect\DBCustomConfig.class
+murach\Data\Connect\DTSource.class
+murach\Data\Connect\ConnectionPoolCustom.class
+murach\Data\Connect\CategoryDB.class
+murach\Data\Connect\ConnectionPool1.class
+murach\Data\Connect\DBUtil.class
