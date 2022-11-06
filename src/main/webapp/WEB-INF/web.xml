@@ -6,12 +6,27 @@
         <servlet-name>Home</servlet-name>
         <servlet-class>murach.Controllers.Home</servlet-class>
     </servlet>
-
+    <servlet>
+        <servlet-name>EmailListServlet</servlet-name>
+        <servlet-class>murach.Controllers.Homework.Homework1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletSurvey</servlet-name>
+        <servlet-class>murach.Controllers.Homework.Homework2_EL_JSTL</servlet-class>
+    </servlet>
 
     <!-- servlet mappings -->
     <servlet-mapping>
         <servlet-name>Home</servlet-name>
         <url-pattern>/hihi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EmailListServlet</servlet-name>
+        <url-pattern>/homework/1/emailList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletSurvey</servlet-name>
+        <url-pattern>/homework/2/survey</url-pattern>
     </servlet-mapping>
     
     <session-config>
