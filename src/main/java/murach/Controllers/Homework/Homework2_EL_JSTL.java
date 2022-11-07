@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import murach.Business.UserHomework;
+import murach.Business.Homework.UserHomework;
 
 public class Homework2_EL_JSTL extends HttpServlet {
 

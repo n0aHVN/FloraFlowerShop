@@ -6,13 +6,23 @@
         <servlet-name>Home</servlet-name>
         <servlet-class>murach.Controllers.Home</servlet-class>
     </servlet>
+    
+    <!-- 1 Servlet -->
     <servlet>
         <servlet-name>EmailListServlet</servlet-name>
-        <servlet-class>murach.Controllers.Homework.Homework1</servlet-class>
+        <servlet-class>murach.Controllers.Homework.Homework1_Servlet</servlet-class>
     </servlet>
+    
+    <!-- 2 JSTL -->
     <servlet>
         <servlet-name>ServletSurvey</servlet-name>
         <servlet-class>murach.Controllers.Homework.Homework2_EL_JSTL</servlet-class>
+    </servlet>
+    
+    <!-- 3 Cookie -->
+    <servlet>
+        <servlet-name>DownloadServlet</servlet-name>
+        <servlet-class>murach.Controllers.Homework.Homework3_Cookie</servlet-class>
     </servlet>
 
     <!-- servlet mappings -->
@@ -20,13 +30,20 @@
         <servlet-name>Home</servlet-name>
         <url-pattern>/hihi</url-pattern>
     </servlet-mapping>
+    
     <servlet-mapping>
         <servlet-name>EmailListServlet</servlet-name>
         <url-pattern>/homework/1/emailList</url-pattern>
     </servlet-mapping>
+    
     <servlet-mapping>
         <servlet-name>ServletSurvey</servlet-name>
         <url-pattern>/homework/2/survey</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>DownloadServlet</servlet-name>
+        <url-pattern>/homework/3/1/download</url-pattern>
     </servlet-mapping>
     
     <session-config>

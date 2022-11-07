@@ -12,6 +12,10 @@
     <c:forEach var="category" items="${categories}">
     <h2>${category.category_slug}</h2>
      </c:forEach>
+  <br>
+  <a href="homework/1/"><h1>homework1_servlet</h1></a>
+  <a href="homework/2/"><h1>homework2_el_jstl</h1></a>
+  <a href="homework/3/1/"><h1>homework3_1_cookie</h1></a>
      
 </body>
 </html>
