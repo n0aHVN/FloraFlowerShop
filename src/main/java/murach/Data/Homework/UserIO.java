@@ -75,4 +75,26 @@ public class UserIO {
             return null;
         }
     }
+    
+    public static HashMap<String, UserHomework> getUsersMap(String filename) throws IOException {
+        HashMap<String, UserHomework> users = new HashMap<String, UserHomework>();
+        BufferedReader in = new BufferedReader(
+                new FileReader(filename));
+        String line = in.readLine();
+        while (line != null) {
+            try {
+                StringTokenizer t = new StringTokenizer(line, "|");
+                String emailAddress = t.nextToken();
+                String firstName = t.nextToken();
+                String lastName = t.nextToken();
+                UserHomework user = new UserHomework(firstName, lastName, emailAddress);
+                users.put(emailAddress, user);
+                line = in.readLine();
+            } catch (NoSuchElementException e) {
+                line = in.readLine();
+            }
+        }
+        in.close();
+        return users;
+    }
 }

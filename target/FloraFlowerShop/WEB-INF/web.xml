@@ -7,23 +7,51 @@
         <servlet-class>murach.Controllers.Home</servlet-class>
     </servlet>
     
-    <!-- 1 Servlet -->
+    <!-- 5 Servlet -->
     <servlet>
         <servlet-name>EmailListServlet</servlet-name>
-        <servlet-class>murach.Controllers.Homework.Homework1_Servlet</servlet-class>
+        <servlet-class>murach.Controllers.Homework.Homework5_Servlet</servlet-class>
     </servlet>
     
-    <!-- 2 JSTL -->
+    <!-- 6 JSTL -->
     <servlet>
         <servlet-name>ServletSurvey</servlet-name>
-        <servlet-class>murach.Controllers.Homework.Homework2_EL_JSTL</servlet-class>
+        <servlet-class>murach.Controllers.Homework.Homework6_EL_JSTL</servlet-class>
     </servlet>
     
-    <!-- 3 Cookie -->
+    <!-- 7_1 Cookie -->
     <servlet>
         <servlet-name>DownloadServlet</servlet-name>
-        <servlet-class>murach.Controllers.Homework.Homework3_Cookie</servlet-class>
+        <servlet-class>murach.Controllers.Homework.Homework7_Cookie</servlet-class>
     </servlet>
+    <!-- 7_2 Hidden fields -->
+    <servlet>
+        <servlet-name>CartServlet</servlet-name>
+        <servlet-class>murach.Controllers.Homework.Homework7_HiddenFields</servlet-class>
+    </servlet>
+    
+    <!-- 8 EL -->
+    <servlet>
+        <servlet-name>EmailListServlet1</servlet-name>
+        <servlet-class>murach.Controllers.Homework.Homework8_EL</servlet-class>
+    </servlet>
+    
+    <!-- 9_1 JSTL -->
+    <servlet>
+        <servlet-name>DownloadServlet1</servlet-name>
+        <servlet-class>murach.Controllers.Homework.Homework9_1_JSTL</servlet-class>
+    </servlet>
+    
+    <!-- 9_2 JSTL -->
+    <servlet>
+        <servlet-name>CartServlet1</servlet-name>
+        <servlet-class>murach.Controllers.Homework.Homework9_2_JSTL_CartServlet</servlet-class>
+    </servlet>
+    <!-- <servlet>
+        <servlet-name>ProductsServlet</servlet-name>
+        <servlet-class>murach.Controllers.Homework.Homework9_2_JSTL_ProductsServlet</servlet-class>
+    </servlet> -->
+    
 
     <!-- servlet mappings -->
     <servlet-mapping>
@@ -33,18 +61,42 @@
     
     <servlet-mapping>
         <servlet-name>EmailListServlet</servlet-name>
-        <url-pattern>/homework/1/emailList</url-pattern>
+        <url-pattern>/homework/5/emailList</url-pattern>
     </servlet-mapping>
     
     <servlet-mapping>
         <servlet-name>ServletSurvey</servlet-name>
-        <url-pattern>/homework/2/survey</url-pattern>
+        <url-pattern>/homework/6/survey</url-pattern>
     </servlet-mapping>
     
     <servlet-mapping>
         <servlet-name>DownloadServlet</servlet-name>
-        <url-pattern>/homework/3/1/download</url-pattern>
+        <url-pattern>/homework/7/1/download</url-pattern>
     </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/homework/7/2/cart</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>EmailListServlet1</servlet-name>
+        <url-pattern>/homework/8/emailList</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>DownloadServlet1</servlet-name>
+        <url-pattern>/homework/9/1/download</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>CartServlet1</servlet-name>
+        <url-pattern>/homework/9/2/cart</url-pattern>
+    </servlet-mapping>
+    <!-- <servlet-mapping>
+        <servlet-name>ProductsServlet</servlet-name>
+        <url-pattern>/homework/9/2/loadProducts</url-pattern>
+    </servlet-mapping> -->
     
     <session-config>
         <session-timeout>30</session-timeout>
