@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@page import="java.io.PrintWriter"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,14 +8,20 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="" method="post">
+	<form action="loginpage" method="post">
 		<div>
-			<input name="user" type="text" value = "" }">
+			<input name="username" type="text" >
 		</div>
 		<div>
 			<input name ="password" type="password">
 		</div>
-			<input type="button" value = "Login"></button>
+			<input type="submit" value = "Login">
 	</form>
+	
+	<h1><% session.getAttribute("errorMessage"); %></h1>
+
 </body>
+
+
+
 </html>

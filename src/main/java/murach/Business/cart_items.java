@@ -14,7 +14,7 @@ public class cart_items {
 		  variation= "";
 		  cart_items_id= "";
 		  quantity= 0;
-		  is_active= 1;
+		  is_active= true;
 	}
 	public cart_items(String user,
 			int product,
@@ -55,24 +55,24 @@ public class cart_items {
 	
 	
 	
-	public void set_user() {
+	public void set_user(String user) {
 		this.user = user;
 	}
 	
-	public void set_product() {
+	public void set_product(int product) {
 		this.product = product;
 	}
-	public void set_variation() {
+	public void set_variation(String variation) {
 		this.variation = variation;
 	}
-	public void set_cart_items_id() {
+	public void set_cart_items_id(String cart_items_id) {
 		this.cart_items_id = cart_items_id;
 	}
 	
-	public void set_quantity() {
+	public void set_quantity(int quantity) {
 		this.quantity = quantity;
 	}
-	public void set_is_active() {
+	public void set_is_active(boolean is_active) {
 		this.is_active = is_active;
 	}
 }

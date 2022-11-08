@@ -34,7 +34,7 @@ public class flowers {
 		this.flower_name=flower_name;
 		this.description= description;
 		this.price=price;
-		this.image=imagem;
+		this.image=image;
 		this.is_available=is_available;
 		this.created_date = created_date;
 		this.modified_date = modified_date;
