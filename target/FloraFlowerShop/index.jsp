@@ -13,7 +13,7 @@
     <h2>${category.category_slug}</h2>
      </c:forEach>
   <br>
-    <a href="hihi"><h1>homework5_servlet</h1></a>
+    <a href="hihi"><h1>Lay du lieu trong bang Category trong postgres</h1></a>
   <br>
   <a href="homework/5/"><h1>homework5_servlet</h1></a>
   <a href="homework/6/"><h1>homework6_el_jstl</h1></a>

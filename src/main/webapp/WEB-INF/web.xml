@@ -7,6 +7,11 @@
         <servlet-class>murach.Controllers.Home</servlet-class>
     </servlet>
     
+    <servlet>
+    	<servlet-name>LoginPage</servlet-name>
+    	<servlet-class>murach.Controllers.LoginController</servlet-class>
+    </servlet>
+    
     <!-- 5 Servlet -->
     <servlet>
         <servlet-name>EmailListServlet</servlet-name>
@@ -57,6 +62,11 @@
     <servlet-mapping>
         <servlet-name>Home</servlet-name>
         <url-pattern>/hihi</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+    	<servlet-name>LoginPage</servlet-name>
+    	<url-pattern>/loginpage</url-pattern>
     </servlet-mapping>
     
     <servlet-mapping>
