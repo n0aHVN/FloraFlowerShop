@@ -11,7 +11,10 @@
     	<servlet-name>LoginPage</servlet-name>
     	<servlet-class>murach.Controllers.LoginController</servlet-class>
     </servlet>
-    
+    <servlet>
+    	<servlet-name>RegisterPage</servlet-name>
+    	<servlet-class>murach.Controllers.RegisterController</servlet-class>
+    </servlet>
     <!-- 5 Servlet -->
     <servlet>
         <servlet-name>EmailListServlet</servlet-name>
@@ -67,6 +70,11 @@
     <servlet-mapping>
     	<servlet-name>LoginPage</servlet-name>
     	<url-pattern>/loginpage</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+    	<servlet-name>RegisterPage</servlet-name>
+    	<url-pattern>/registerpage</url-pattern>
     </servlet-mapping>
     
     <servlet-mapping>

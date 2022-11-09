@@ -9,8 +9,8 @@ public class user {
 	private String email;
 	private String phone;
 	private boolean is_admin;
-	private Timestamp joined_date;
-	private Timestamp last_login;
+	private java.sql.Timestamp joined_date;
+	private java.sql.Timestamp last_login;
 	
 	public user(
 			 String user_id,
@@ -61,11 +61,11 @@ public class user {
 		return this.is_admin;
 	}
 	
-	public Timestamp get_joined_date() {
+	public java.sql.Timestamp get_joined_date() {
 		return this.joined_date;
 	}
 	
-	public Timestamp get_last_login() {
+	public java.sql.Timestamp get_last_login() {
 		return this.last_login;
 	}
 	
@@ -93,11 +93,11 @@ public class user {
 		this.is_admin = is_admin;
 	}
 	
-	public void set_joined_date(Timestamp joined_date) {
+	public void set_joined_date(java.sql.Timestamp joined_date) {
 		this.joined_date = joined_date;
 	}
 	
-	public void set_last_login(Timestamp last_login) {
+	public void set_last_login(java.sql.Timestamp last_login) {
 		this.last_login = last_login;
 	}
 	

@@ -10,7 +10,7 @@
 <body>
 	<form action="loginpage" method="post">
 		<div>
-			<input name="username" type="text" >
+			<input name="user_id" type="text" >
 		</div>
 		<div>
 			<input name ="password" type="password">
@@ -18,8 +18,15 @@
 			<input type="submit" value = "Login">
 	</form>
 	
-	<h1><% session.getAttribute("errorMessage"); %></h1>
-
+	<div>
+<% if (request.getAttribute("errorLogin")==true) {%>
+	<p>Invalid username or password!!!</p>
+	<%} %>
+	</div>
+		
+	<div>
+		<a href = "/registerpage">Register new account</a>
+	</div>
 </body>
 
 

@@ -11,14 +11,16 @@ murach\Business\orderproduct.class
 murach\Data\Connect\DTSource.class
 murach\Business\cart.class
 murach\Business\variation.class
+murach\Data\AccountDB.class
 murach\Controllers\Homework\Homework1_Servlet.class
 murach\Controllers\Homework\Homework8_EL.class
 murach\Business\cart_items.class
 murach\Business\UserHomework.class
 murach\Data\Connect\ConnectionPoolCustom.class
 murach\Controllers\Homework\Homework7_HiddenFields.class
-murach\Data\LoginDB.class
+murach\Controllers\RegisterController.class
 murach\Data\Connect\ConnectionPool.class
+murach\Data\RegisterDB.class
 murach\Business\Category.class
 murach\Business\payment.class
 murach\Controllers\Homework\Homework3_Cookie.class

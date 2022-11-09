@@ -1,7 +1,6 @@
 package murach.Controllers;
 
 import java.io.IOException;
-import java.net.ResponseCache;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -12,22 +11,23 @@ import javax.servlet.http.HttpSession;
 import murach.Business.user;
 import murach.Data.AccountDB;
 
-public class LoginController extends HttpServlet{
+public class RegisterController extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String url = "/login.jsp";
-        getServletContext()
-        .getRequestDispatcher(url)
-        .forward(req, resp);
+		getServletContext()
+		.getRequestDispatcher("/register.jsp")
+		.forward(req, resp);
 	}
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		HttpSession session = req.getSession();  
+		
         String user_id = req.getParameter("user_id");
         String password= req.getParameter("password");
+        
         AccountDB loginDB = new AccountDB();
         user loginUser= loginDB.userExist(user_id, password);
         if (loginUser !=null) {
@@ -43,4 +43,6 @@ public class LoginController extends HttpServlet{
             .forward(req, resp);
 		}
 	}
+	
+
 }

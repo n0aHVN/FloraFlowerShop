@@ -7,6 +7,25 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello world</h1>
+<h1>Register Page</h1>
+<form action="register.jsp">
+	<div>
+		<p>Username:</p>
+		<input name="username" type="text">
+	</div>
+	<div>
+		<p>Password:</p>
+		<input name="password" type="text">
+	</div>
+	<div>
+		<p>Re-Type Password:</p>
+		<input name="password1" type="text">
+	</div>
+		<p>Re-Type Password:</p>
+		<input name="password2" type="text">
+	<div>
+		<input name="submit" type="submit">
+	</div>
+</form>
 </body>
 </html>

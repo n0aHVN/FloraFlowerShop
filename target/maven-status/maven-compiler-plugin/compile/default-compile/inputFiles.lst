@@ -2,6 +2,7 @@ D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\Connect\
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Homework\Homework9_1_JSTL.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Business\orderproduct.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Homework\Homework6_EL_JSTL.java
+D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\RegisterDB.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Home.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\Connect\ConnectionPoolCustom.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\LoginController.java
@@ -20,6 +21,7 @@ D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\Category
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Homework\Homework2_EL_JSTL.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Homework\Homework7_Cookie.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Business\category_flower.java
+D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\RegisterController.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\Connect\DBUtil.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Business\variation.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\Connect\DTSource.java
@@ -32,10 +34,10 @@ D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Business\Home
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Business\Category.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Business\cart_items.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Homework\Homework9_2_JSTL_CartServlet.java
+D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\AccountDB.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Homework\Homework9_2_JSTL_ProductsServlet.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Business\flowers.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\Homework\ProductIO.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Homework\Homework7_HiddenFields.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Controllers\Homework\Homework8_EL.java
 D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\Homework\UserIO.java
-D:\Uni\Nam3\Web\ProjectCuoiKi\FloraFlowerShop\src\main\java\murach\Data\LoginDB.java
